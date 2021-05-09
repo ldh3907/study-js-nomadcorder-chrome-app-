@@ -8,6 +8,16 @@ const calculator = {
     }
 }
 
-function printf(print){
-    console.log(print);
+// function printf(print){
+//     console.log(print);
+// }
+
+const title = document.querySelector("#title");
+
+function handleClick() {
+  title.style.color = "blue";
 }
+
+title.addEventListener("click", handleClick);
+
+
