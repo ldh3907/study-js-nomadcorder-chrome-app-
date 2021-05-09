@@ -40,9 +40,15 @@ const calculator = {
 };
 
 const title = document.querySelector("#title");
+const title2 = document.querySelector("#title2");
 
 function handleClick() {
   title.style.color = "blue";
 }
 
+function handleClick2() {
+  title2.style.color = "green";
+}
+
 title.addEventListener("click", handleClick);
+title2.addEventListener("click", handleClick2);
