@@ -39,22 +39,24 @@ const calculator = {
   },
 };
 
-const title = document.querySelector("#title");
-const title2 = document.querySelector("#title2");
+const BASE_COLOR = "rgb(66, 66, 66)";
+
+const title = document.querySelector(".title");
+const title2 = document.querySelector(".title2");
 
 function handleClick() {
-  if (title.style.color === "blue") {
+  if (title.style.color === BASE_COLOR) {
     title.style.color = "white";
   } else {
-    title.style.color = "blue";
+    title.style.color = BASE_COLOR;
   }
 }
 
 function handleClick2() {
-  if (title2.style.color === "green") {
+  if (title2.style.color === BASE_COLOR) {
     title2.style.color = "white";
   } else {
-    title2.style.color = "green";
+    title2.style.color = BASE_COLOR;
   }
 }
 

@@ -1,8 +1,27 @@
 body {
-  background-color: gray;
+  background-color: #607d8b;
 }
-
-h1 {
+.font-style {
+  font-family: "Black Han Sans", sans-serif;
+  font-family: "Do Hyeon", sans-serif;
+  color: "grey";
+  font-size: 40px;
+}
+.title,
+.title2 {
   color: white;
   transition: color 0.5s ease-in-out;
+}
+
+.title2 {
+  margin: 10px 0px;
+}
+.top-content-wrap {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.js-title {
+  font-size: 100px;
 }
