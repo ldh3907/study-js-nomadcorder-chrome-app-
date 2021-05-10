@@ -58,11 +58,11 @@ function handleClick2() {
   }
 }
 
-title.addEventListener("click", handleClick);
-title2.addEventListener("click", handleClick2);
+title.addEventListener("mouseover", handleClick);
+title2.addEventListener("mouseover", handleClick2);
 
-if (condition) {
-  block;
-} else {
-  block;
-}
+// if (condition) {
+//   block;
+// } else {
+//   block;
+// }
