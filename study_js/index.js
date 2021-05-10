@@ -43,12 +43,26 @@ const title = document.querySelector("#title");
 const title2 = document.querySelector("#title2");
 
 function handleClick() {
-  title.style.color = "blue";
+  if (title.style.color === "blue") {
+    title.style.color = "white";
+  } else {
+    title.style.color = "blue";
+  }
 }
 
 function handleClick2() {
-  title2.style.color = "green";
+  if (title2.style.color === "green") {
+    title2.style.color = "white";
+  } else {
+    title2.style.color = "green";
+  }
 }
 
 title.addEventListener("click", handleClick);
 title2.addEventListener("click", handleClick2);
+
+if (condition) {
+  block;
+} else {
+  block;
+}
