@@ -50,3 +50,19 @@ body {
 .showing {
   display: block;
 }
+.js-toDoList {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.toDoDeleteBtn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+.toDoContents {
+  font-size: 40px;
+}
