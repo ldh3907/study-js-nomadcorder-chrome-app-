@@ -25,3 +25,28 @@ body {
 .js-title {
   font-size: 100px;
 }
+/* .js-title-animation {
+  transition: color 0.5s ease-in-out;
+} */
+
+.input-text {
+  outline: none;
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  background: none;
+  border: 3px solid black;
+}
+
+.input-text::placeholder {
+  color: black;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
